@@ -55,10 +55,7 @@ api.add_resource(GetFiles, '/getfiles')
 api.add_resource(CreateFolder, '/createfolder')
 api.add_resource(GetFolder, '/getfolder')
 
-
-  
   
 # driver function
 if __name__ == '__main__':
-  
     app.run(debug = True)
